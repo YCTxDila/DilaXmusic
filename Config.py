@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-    API_ID = int(os.environ.get("APP_ID", "6435225"))
-    API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    API_ID = int(os.environ.get("APP_ID", "21889276"))
+    API_HASH = os.environ.get("API_HASH", "1ea11115fb38fa33c3111b388f60155f")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5609518549:AAGR_CDNuXnpA2_drDhOoFnwru-mhiW6XT0")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOGQBu1TpGUVtk7WHLKjaR5RWYcyuOvjOWMzESx9VGTorl75PsbKYcVjQx25Zb0jeO8ACnFHQTGL_0_kuvAz4SzQyFMAjauzquAERtTtll2U3CQsTG86Qd-DAtKLEiQSZUQ-EFR58u8IzJualt4SQHAiz3gzs9WGdSMW-yUMde_Hxadxu9c2CWR_yR1By_fmBoKMRDh7SrMcZxOmXmLAXizmtYcGecSjXgbkAfjrhHxgJG9_ir9gq784MwcxB_Dp4kiM4pOvU8Dq72wOw-aKy0BjXZD5YgaMhyEoYNwWP6geWgSvHTQPyU0qszIL8ZF4EsYhcjUeXde_ZqgvH1bsiFcyumrw=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@xDEL_Music_Bot")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
